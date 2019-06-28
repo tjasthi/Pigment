@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" ><![CDATA[
+    tools:context=".DisplayImageActivity">
+
+    ]]>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageCaptured"/>
+
+    <ImageView
+        android:id="@+id/colorTransform"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageCaptured"
+        android:layout_alignEnd="@+id/imageCaptured"
+        android:layout_alignBottom="@+id/imageCaptured"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/colorize" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

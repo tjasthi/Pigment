@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pigment</string>
+    <string name="button_results">Results</string>
+    <string name="button_save">Save</string>
+    <string name="button_retake">Retake</string>
+    <string name="default_answer" />
+    <string name="text_diagnosis_indicator">Your Diagnosis</string>
+    <string name="text_diagnosis">Diagnosis Here</string>
+    <string name="protanopia_description"> Also called red-dichromacy, protanopia is caused by
+        missing long-wavelength or L-cones. This results in an insensitivity to red light,
+        making it difficult to distinguish between red and green colors and also between
+        blue and green colors. </string>
+    <string name="deuteranopia_description"> Also called green-dichromacy, deuteranopia is caused by
+        missing medium-wavelength or M-cones. This results in an insensitivity to green light,
+        making it difficult to distinguish between red and green colors and also between
+        blue and green colors. </string>
+    <string name="test_description"> Hello! You are about the take the Ishihara Color Test in
+        order to diagnose your type of colorblindness and choose the right filter for you.
+        To answer each question you must identify the number.
+        \n\n 1. Hold your phone at least 75 cm. or 30 in. from your face, with each circle set at eye level.
+        \n\n 2. Preferably have mild natural light and no glare on your screen. Interior lights and
+        glare can alter the color of the pictures.
+        \n\n 3. Attempt to identify the hidden number within 5 seconds.
+        \n\n 4. Upon answering all questions, your diagnosis will be revealed along with an
+        analysis explaining your condition.</string>
+</resources>

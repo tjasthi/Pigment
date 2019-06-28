@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout file for a single cell in the question recycler view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/question_cell_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <!-- image view -->
+    <ImageView
+        android:id="@+id/question_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:cropToPadding="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:scaleType="centerCrop"
+        android:clickable="false"
+        android:focusable="false"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_image_view"
+        android:layout_alignStart="@+id/question_image_view"
+        android:layout_alignEnd="@+id/question_image_view"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:clickable="true"
+        android:focusable="true"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/default_answer" />
+</RelativeLayout>
